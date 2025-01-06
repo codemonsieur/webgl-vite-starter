@@ -1,0 +1,18 @@
+{
+  "name": "250105-vite-shader-starter",
+  "version": "0.0.0",
+  "devDependencies": {
+    "terser": "^5.37.0",
+    "typescript": "^5.7.2",
+    "vite": "^6.0.5",
+    "vite-plugin-glsl": "^1.3.1",
+    "vite-plugin-singlefile": "^2.1.0"
+  },
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "type": "module"
+}
